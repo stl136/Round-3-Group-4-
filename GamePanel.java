@@ -17,7 +17,7 @@ public class GamePanel extends JPanel
     public void paintComponent(Graphics g) 
 	{
     	super.paintComponent(g); 
-    	Image myImage = Toolkit.getDefaultToolkit().getImage("images/r10.jpg");
+    	Image myImage = Toolkit.getDefaultToolkit().getImage("images/guitar.png");
     	g.drawImage(myImage, 0, 0, this);    	
         g.fillRect(100,20,70,80);
         g.setColor(Color.yellow);
