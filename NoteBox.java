@@ -4,7 +4,7 @@ import javax.swing.JLabel;
 import java.util.Random;
 import javax.swing.ImageIcon;
 public class NoteBox extends JLabel{
-    int x;
+    private int x;
     private final int width = 64;
     private final int height = 64;
     
