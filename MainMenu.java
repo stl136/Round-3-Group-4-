@@ -31,7 +31,7 @@ public class MainMenu extends JPanel
 
         setLayout(null);
         
-        this.setBackground(Color.pink);
+        this.setBackground(Color.yellow);
                                 
         
         start = new JButton("New Game");
