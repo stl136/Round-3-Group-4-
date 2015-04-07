@@ -7,6 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.ImageObserver;
 import java.awt.image.ImageProducer;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -18,18 +19,26 @@ public class GamePanel extends JPanel implements ActionListener
     NoteBox n ;
     JLabel j = new JLabel("j");
     JButton start = new JButton("start");
+
     
     public GamePanel()
     {
 
+        super();
         setLayout(null);
+        setSize(700,700);
+        
         t = new Timer(1000,this);
         n = new NoteBox();
         j.setBackground(Color.red);
         j.setOpaque(true);
-         j.setBounds(64, 64, 100, 100);
-         start.setBounds(50, 20, 100 , 200);
-         start.addActionListener(this);
+        j.setBounds(64, 64, 100, 100);
+        start.setBounds(50, 20, 100 , 200);
+        start.addActionListener(this);
+         
+
+         
+        
         add(j);
         add(start);
 

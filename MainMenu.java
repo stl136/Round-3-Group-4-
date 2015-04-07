@@ -18,8 +18,8 @@ public class MainMenu extends JPanel implements ActionListener
     JButton start, exit;
     
     Font font = new Font("Comic Sans", Font.BOLD,18);
-    Font font2 = new Font("Papyrus", Font.BOLD,56);
-    Font font3 = new Font("Comic Sans", Font.BOLD,15);
+    Font font2 = new Font("Papyrus", Font.BOLD,60);
+    Font font3 = new Font("Comic Sans", Font.PLAIN,16);
     
     JComboBox difficulty;
     
@@ -58,17 +58,17 @@ public class MainMenu extends JPanel implements ActionListener
         difficulty = new JComboBox(diffSettings);
         difficulty.setFont(font);
         difficulty.setForeground(Color.blue);
-        difficulty.setBounds(20, 425, 250, 50);
+        difficulty.setBounds(20, 425, 150, 50);
         
-        memo = new JLabel("Chosoe your difficulty");
-        memo.setBounds(30, 390, 150, 50);
-        difficulty.setFont(font3);
-        memo.setForeground(Color.blue);
+        memo = new JLabel("Chosoe your difficulty:");
+        memo.setBounds(30, 390, 250, 50);
+        memo.setForeground(Color.white);
+        memo.setFont(font3);
         
         
         title = new JLabel("Key Board Hero");
         title.setFont(font2);
-        title.setBounds(200, 20, 450, 100);
+        title.setBounds(160, 40, 450, 100);
         title.setForeground(Color.red);
         
        
@@ -114,11 +114,10 @@ public class MainMenu extends JPanel implements ActionListener
           
           if(obj == start) 
           {
-
-            jFrame.remove(this);
-            jFrame.add(gamePanel);
+      
+            jFrame.getContentPane().remove(this);
+            jFrame.getContentPane().add(gamePanel);
             jFrame.revalidate();
-            jFrame.pack();
             
           }
           else 

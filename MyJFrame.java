@@ -20,8 +20,9 @@ public class MyJFrame extends JFrame
         
         
 
-        getContentPane().setLayout(new BorderLayout());                
-        this.getContentPane().add(gp);
+        getContentPane().setLayout(new BorderLayout());    
+        
+        this.getContentPane().add(mjp);
         this.setSize(700, 700);
         this.setLocationRelativeTo(null);
         this.setVisible(true);
