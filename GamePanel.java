@@ -12,6 +12,7 @@ public class GamePanel extends JPanel
     
     public GamePanel()
     {
+        setLayout(null);
         
     }
     public void paintComponent(Graphics g) 
@@ -19,9 +20,7 @@ public class GamePanel extends JPanel
     	super.paintComponent(g); 
     	Image myImage = Toolkit.getDefaultToolkit().getImage("images/guitar.png");
     	g.drawImage(myImage, 0, 0, this);    	
-        g.fillRect(100,20,70,80);
-        g.setColor(Color.yellow);
-        g.drawString("text on a Panel", 100,150);
+        
 
     }
 }
