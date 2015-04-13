@@ -91,7 +91,7 @@ public class MainMenu extends JPanel implements ActionListener
     public void paintComponent(Graphics g) 
 	{
     	super.paintComponent(g); 
-    	Image myImage = Toolkit.getDefaultToolkit().getImage("images/guitar.png");
+    	Image myImage = Toolkit.getDefaultToolkit().getImage("images/guitar.jpeg");
     	g.drawImage(myImage, 0, 0, this);    	
 
     }
