@@ -19,22 +19,22 @@ public class NoteBox extends JLabel{
    }
    public void setColor(int x){
        if(x==0){
-           ImageIcon red = new ImageIcon("images/left2.jpg");
+           ImageIcon red = new ImageIcon("images/Untitled2.png");
            this.setIcon(red);
            this.setBackground(Color.red);
        }
        if(x==1){
-           ImageIcon blue = new ImageIcon("images/up2.jpg");
+           ImageIcon blue = new ImageIcon("images/Untitled4.png");
            this.setIcon(blue);
            this.setBackground(Color.BLUE);
        }
        if(x==2){
-           ImageIcon green = new ImageIcon("images/downArrow.png");
+           ImageIcon green = new ImageIcon("images/Untitled1.png");
            this.setIcon(green);
            this.setBackground(Color.GREEN);
        }
        if(x==3){
-           ImageIcon yellow = new ImageIcon("images/right2.jpg");
+           ImageIcon yellow = new ImageIcon("images/Untitled3.png");
            this.setIcon(yellow);
            this.setBackground(Color.YELLOW);
        }
