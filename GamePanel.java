@@ -58,7 +58,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
         setSize(700,700);
         
 
-        t = new Timer(30,this);
+        t = new Timer(50,this);
        
         
         up = new NoteBox();
@@ -267,52 +267,52 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
                        
                        
                        //right array
-                       if(rightArray[0].getBounds().y == 575 && rightArray[0].getIcon() == rightArray[0].yellow)
+                       if(rightArray[0].getBounds().y == 575 && rightArray[0].getIcon() == right.yellow)
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(rightArray[1].getBounds().y == 575 && rightArray[1].getIcon() == rightArray[1].yellow)
+                       if(rightArray[1].getBounds().y == 575 && rightArray[1].getIcon() == right.yellow)
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(rightArray[2].getBounds().y == 575 && rightArray[2].getIcon() == rightArray[2].yellow)
+                       if(rightArray[2].getBounds().y == 575 && rightArray[2].getIcon() == right.yellow)
                       
                             score --;
                             System.out.println(score);
                         }
-                       if(rightArray[3].getBounds().y == 575 && rightArray[3].getIcon() == rightArray[3].yellow)
+                       if(rightArray[3].getBounds().y == 575 && rightArray[3].getIcon() == right.yellow)
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(rightArray[4].getBounds().y == 575 && rightArray[4].getIcon() == rightArray[4].yellow)
+                       if(rightArray[4].getBounds().y == 575 && rightArray[4].getIcon() == right.yellow)
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(rightArray[5].getBounds().y == 575 && rightArray[5].getIcon() == rightArray[5].yellow)
+                       if(rightArray[5].getBounds().y == 575 && rightArray[5].getIcon() == right.yellow)
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(rightArray[6].getBounds().y == 575 && rightArray[6].getIcon() == rightArray[6].yellow)
+                       if(rightArray[6].getBounds().y == 575 && rightArray[6].getIcon() == right.yellow)
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(rightArray[7].getBounds().y == 575 && rightArray[7].getIcon() == rightArray[7].yellow)
+                       if(rightArray[7].getBounds().y == 575 && rightArray[7].getIcon() == right.yellow)
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(rightArray[8].getBounds().y == 575 && rightArray[8].getIcon() == rightArray[8].yellow)
+                       if(rightArray[8].getBounds().y == 575 && rightArray[8].getIcon() == right.yellow)
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(rightArray[9].getBounds().y == 575 && rightArray[9].getIcon() == rightArray[9].yellow)
+                       if(rightArray[9].getBounds().y == 575 && rightArray[9].getIcon() == right.yellow)
                         {
                             score --;
                             System.out.println(score);
@@ -321,52 +321,52 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
                        
                        
                        //left array
-                      if(leftArray[0].getBounds().y == 575 && leftArray[0].getIcon() == leftArray[0].red)
+                      if(leftArray[0].getBounds().y == 575 && leftArray[0].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
                         }
-                      if(leftArray[1].getBounds().y == 575 && leftArray[1].getIcon() == leftArray[1].red)
+                      if(leftArray[1].getBounds().y == 575 && leftArray[1].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
                         }
-                      if(leftArray[2].getBounds().y == 575 && leftArray[2].getIcon() == leftArray[2].red)
+                      if(leftArray[2].getBounds().y == 575 && leftArray[2].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
                         }
-                      if(leftArray[3].getBounds().y == 575 && leftArray[3].getIcon() == leftArray[3].red)
+                      if(leftArray[3].getBounds().y == 575 && leftArray[3].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
                         }
-                      if(leftArray[4].getBounds().y == 575 && leftArray[4].getIcon() == leftArray[4].red)
+                      if(leftArray[4].getBounds().y == 575 && leftArray[4].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
                         }
-                      if(leftArray[5].getBounds().y == 575 && leftArray[5].getIcon() == leftArray[5].red)
+                      if(leftArray[5].getBounds().y == 575 && leftArray[5].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
                         }
-                      if(leftArray[6].getBounds().y == 575 && leftArray[6].getIcon() == leftArray[6].red)
+                      if(leftArray[6].getBounds().y == 575 && leftArray[6].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
                         }
-                      if(leftArray[7].getBounds().y == 575 && leftArray[7].getIcon() == leftArray[7].red)
+                      if(leftArray[7].getBounds().y == 575 && leftArray[7].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
                         }
-                      if(leftArray[8].getBounds().y == 575 && leftArray[8].getIcon() == leftArray[8].red)
+                      if(leftArray[8].getBounds().y == 575 && leftArray[8].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
                         }
-                      if(leftArray[9].getBounds().y == 575 && leftArray[9].getIcon() == leftArray[9].red)
+                      if(leftArray[9].getBounds().y == 575 && leftArray[9].getIcon() == left.red)
                         {
                             score --;
                             System.out.println(score);
@@ -376,106 +376,106 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
                       
                       
                       
-                      //up array
-//                      if(upArray[0].getBounds().y == 575 && upArray[0].getIcon() == upArray[0].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      if(upArray[1].getBounds().y == 575 && upArray[1].getIcon() == upArray[1].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      if(upArray[2].getBounds().y == 575 && upArray[2].getIcon() == upArray[2].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      if(upArray[3].getBounds().y == 575 && upArray[3].getIcon() == upArray[3].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      if(upArray[4].getBounds().y == 575 && upArray[4].getIcon() == upArray[4].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      if(upArray[5].getBounds().y == 575 && upArray[5].getIcon() == upArray[5].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      if(upArray[6].getBounds().y == 575 && upArray[6].getIcon() == upArray[6].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      if(upArray[7].getBounds().y == 575 && upArray[7].getIcon() == upArray[7].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      if(upArray[8].getBounds().y == 575 && upArray[8].getIcon() == upArray[8].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      if(upArray[9].getBounds().y == 575 && upArray[9].getIcon() == upArray[9].blue)
-//                        {
-//                            score --;
-//                            System.out.println(score);
-//                        }
-//                      
+                     // up array
+                      if(upArray[0].getBounds().y == 575 && upArray[0].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      if(upArray[1].getBounds().y == 575 && upArray[1].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      if(upArray[2].getBounds().y == 575 && upArray[2].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      if(upArray[3].getBounds().y == 575 && upArray[3].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      if(upArray[4].getBounds().y == 575 && upArray[4].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      if(upArray[5].getBounds().y == 575 && upArray[5].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      if(upArray[6].getBounds().y == 575 && upArray[6].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      if(upArray[7].getBounds().y == 575 && upArray[7].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      if(upArray[8].getBounds().y == 575 && upArray[8].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      if(upArray[9].getBounds().y == 575 && upArray[9].getIcon() == up.blue)
+                        {
+                            score --;
+                            System.out.println(score);
+                        }
+                      
                       
                       //down array 
-                       if(downArray[0].getBounds().y == 575 && downArray[0].getIcon() == downArray[0].green )
+                       if(downArray[0].getBounds().y == 575 && downArray[0].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(downArray[1].getBounds().y == 575 && downArray[1].getIcon() == downArray[1].green )
+                       if(downArray[1].getBounds().y == 575 && downArray[1].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(downArray[2].getBounds().y == 575 && downArray[2].getIcon() == downArray[2].green )
+                       if(downArray[2].getBounds().y == 575 && downArray[2].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(downArray[3].getBounds().y == 575 && downArray[3].getIcon() == downArray[3].green )
+                       if(downArray[3].getBounds().y == 575 && downArray[3].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(downArray[4].getBounds().y == 575 && downArray[4].getIcon() == downArray[4].green )
+                       if(downArray[4].getBounds().y == 575 && downArray[4].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(downArray[5].getBounds().y == 575 && downArray[5].getIcon() == downArray[5].green )
+                       if(downArray[5].getBounds().y == 575 && downArray[5].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(downArray[6].getBounds().y == 575 && downArray[6].getIcon() == downArray[6].green )
+                       if(downArray[6].getBounds().y == 575 && downArray[6].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(downArray[7].getBounds().y == 575 && downArray[7].getIcon() == downArray[7].green )
+                       if(downArray[7].getBounds().y == 575 && downArray[7].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(downArray[8].getBounds().y == 575 && downArray[8].getIcon() == downArray[8].green )
+                       if(downArray[8].getBounds().y == 575 && downArray[8].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
                         }
-                       if(downArray[9].getBounds().y == 575 && downArray[9].getIcon() == downArray[9].green )
+                       if(downArray[9].getBounds().y == 575 && downArray[9].getIcon() == down.green )
                         {
                             score --;
                             System.out.println(score);
@@ -521,6 +521,19 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
              upArray[1].setBounds(upX, u1Y, 50, 50);
              u1Y = u1Y +5;
              }
+             if(time>=160){
+                 downArray[0].setBounds(downX, d0Y, 50, 50);
+                 d0Y = d0Y +5;
+             }
+             
+             if(time>=180){
+                 rightArray[0].setBounds(rightX, r0Y, 50, 50);
+                 r0Y = r0Y +5;
+             }
+             if(time>=200){
+                 leftArray[0].setBounds(leftX, l0Y, 50, 50);
+                 l0Y = l0Y +5;
+             }
              if(time >=220)
              {
              upArray[2].setBounds(upX, u2Y, 50, 50);
@@ -536,33 +549,150 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
              upArray[4].setBounds(upX, u4Y, 50, 50);
              u4Y = u4Y +5;
              }
+             
+              if(time>=280){
+                 downArray[1].setBounds(downX, d1Y, 50, 50);
+                 d1Y = d1Y +5;
+             }
+             
+             if(time>=280){
+                 rightArray[1].setBounds(rightX, r1Y, 50, 50);
+                 r1Y = r1Y +5;
+             }
+              if(time>=300){
+                 downArray[2].setBounds(downX, d2Y, 50, 50);
+                 d2Y = d2Y +5;
+             }
+              if(time>=320){
+                 downArray[3].setBounds(downX, d3Y, 50, 50);
+                 d3Y = d3Y +5;
+             }
+             
+             if(time>=340){
+                 rightArray[2].setBounds(rightX, r2Y, 50, 50);
+                 r2Y = r2Y +5;
+             }
+             if(time>=360){
+                 rightArray[3].setBounds(rightX, r3Y, 50, 50);
+                 r3Y = r3Y +5;
+             }
+             
              if(time >=380)
              {
              upArray[5].setBounds(upX, u5Y, 50, 50);
              u5Y = u5Y +5;
              }
+             if(time>=380){
+                 leftArray[1].setBounds(leftX, l1Y, 50, 50);
+                 l1Y = l1Y +5;
+             }
+             if(time>=400){
+                 leftArray[2].setBounds(leftX, l2Y, 50, 50);
+                 l2Y = l2Y +5;
+             }
+             if(time>=420){
+                 leftArray[3].setBounds(leftX, l3Y, 50, 50);
+                 l3Y = l3Y +5;
+             }
+              if(time>=440){
+                 rightArray[4].setBounds(rightX, r4Y, 50, 50);
+                 r4Y = r4Y +5;
+             }
+              if(time>=440){
+                 downArray[4].setBounds(downX, d4Y, 50, 50);
+                 d4Y = d4Y +5;
+             }
+              if(time>=460){
+                 downArray[5].setBounds(downX, d5Y, 50, 50);
+                 d5Y = d5Y +5;
+             }
+              if(time>=480){
+                 leftArray[4].setBounds(leftX, l4Y, 50, 50);
+                 l4Y = l4Y +5;
+             }
+             if(time>=490){
+                 leftArray[5].setBounds(leftX, l5Y, 50, 50);
+                 l5Y = l5Y +5;
+             }
+             
              if(time >=500)
              {
              upArray[6].setBounds(upX, u6Y, 50, 50);
              u6Y = u6Y +5;
              }
+             
+             if(time>=510){
+                 rightArray[4].setBounds(rightX, r4Y, 50, 50);
+                 r4Y = r4Y +5;
+             }
+             if(time>=520){
+                 rightArray[5].setBounds(rightX, r5Y, 50, 50);
+                 r5Y = r5Y +5;
+             }
+             if(time>=540){
+                 leftArray[6].setBounds(leftX, l6Y, 50, 50);
+                 l6Y = l6Y +5;
+             }
+             if(time>=570){
+                 rightArray[6].setBounds(rightX, r6Y, 50, 50);
+                 r6Y = r6Y +5;
+             }
+             if(time>=580){
+                 rightArray[7].setBounds(rightX, r7Y, 50, 50);
+                 r7Y = r7Y +5;
+             }
+             
              if(time >=600)
              {
              upArray[7].setBounds(upX, u7Y, 50, 50);
              u7Y = u7Y +5;
+             }
+             
+             if(time>=600){
+                 rightArray[8].setBounds(rightX, r8Y, 50, 50);
+                 r8Y = r8Y +5;
+             }
+             if(time>=610){
+                 leftArray[7].setBounds(leftX, l7Y, 50, 50);
+                 l7Y = l7Y +5;
              }
              if(time >=620)
              {
              upArray[8].setBounds(upX, u8Y, 50, 50);
              u8Y = u8Y +5;
              }
+             if(time>=630){
+                 leftArray[8].setBounds(leftX, l8Y, 50, 50);
+                 l8Y = l8Y +5;
+             }
+             if(time>=650){
+                 leftArray[9].setBounds(leftX, l9Y, 50, 50);
+                 l9Y = l9Y +5;
+             }
              if(time >=640)
              {
              upArray[9].setBounds(upX, u9Y, 50, 50);
              u9Y = u9Y +5;
              }
+             
+             if(time>=640){
+                 rightArray[9].setBounds(rightX, r9Y, 50, 50);
+                 r9Y = r9Y +5;
+             }
                      
-              
+              if(time>=650){
+                 downArray[6].setBounds(downX, d6Y, 50, 50);
+                 d6Y = d6Y +5;
+             }if(time>=670){
+                 downArray[7].setBounds(downX, d7Y, 50, 50);
+                 d7Y = d7Y +5;
+             }if(time>=690){
+                 downArray[8].setBounds(downX, d8Y, 50, 50);
+                 d8Y = d8Y +5;
+             }if(time>=700){
+                 downArray[9].setBounds(downX, d9Y, 50, 50);
+                 d9Y = d9Y +5;
+             }
               scoreBox.setText("Score: " +score);
         }
 
@@ -710,8 +840,95 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
                         System.out.println(score);
                         down.setIcon(down.cross);
                     }
-           
                     }
+                    
+                    
+                    if(downArray[0].getIcon() == down.green)
+                    {
+                    if(downArray[0].getBounds().y  >= 480 && downArray[0].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[0].setIcon(downArray[0].cross);
+                    }
+                    }
+                    
+                    
+                    if(downArray[1].getIcon() == down.green)
+                    {
+                    if(downArray[1].getBounds().y  >= 480 && downArray[1].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[1].setIcon(downArray[1].cross);
+                    }
+                    }
+                    
+                    
+                    if(downArray[2].getIcon() == down.green)
+                    {
+                    if(downArray[2].getBounds().y  >= 480 && downArray[2].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[2].setIcon(downArray[2].cross);
+                    }
+                    }
+                    if(downArray[3].getIcon() == down.green)
+                    {
+                    if(downArray[3].getBounds().y  >= 480 && downArray[3].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[3].setIcon(downArray[3].cross);
+                    }
+                    }
+                    if(downArray[4].getIcon() == down.green)
+                    {
+                    if(downArray[4].getBounds().y  >= 480 && downArray[4].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[4].setIcon(downArray[4].cross);
+                    }
+                    }
+                    if(downArray[5].getIcon() == down.green)
+                    {
+                    if(downArray[5].getBounds().y  >= 480 && downArray[5].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[5].setIcon(downArray[5].cross);
+                    }
+                    }
+                    if(downArray[6].getIcon() == down.green)
+                    {
+                    if(downArray[6].getBounds().y  >= 480 && downArray[6].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[6].setIcon(downArray[6].cross);
+                    }
+                    }
+                    if(downArray[7].getIcon() == down.green)
+                    {
+                    if(downArray[7].getBounds().y  >= 480 && downArray[7].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[7].setIcon(downArray[7].cross);
+                    }
+                    }
+                    if(downArray[8].getIcon() == down.green)
+                    {
+                    if(downArray[8].getBounds().y  >= 480 && downArray[8].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[8].setIcon(downArray[8].cross);
+                    }
+                    }
+                    if(downArray[9].getIcon() == down.green)
+                    {
+                    if(downArray[9].getBounds().y  >= 480 && downArray[9].getBounds().y  <= 570)
+                    {
+                        score++;
+                        downArray[9].setIcon(downArray[9].cross);
+                    }
+                    }
+                    
+                    
                 }
         
         if (key == KeyEvent.VK_LEFT )
@@ -728,7 +945,88 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
                         //left.setColor(4);
                         left.setIcon(left.cross);
                     }
+                    
 
+                    }
+                   if(leftArray[0].getIcon() == left.red)
+                    {
+                    if(leftArray[0].getBounds().y  >= 480 && leftArray[0].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[0].setIcon(leftArray[0].cross);
+                    }
+                    }
+                    if(leftArray[1].getIcon() == left.red)
+                    {
+                    if(leftArray[1].getBounds().y  >= 480 && leftArray[1].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[1].setIcon(leftArray[1].cross);
+                    }
+                    }
+                    if(leftArray[2].getIcon() == left.red)
+                    {
+                    if(leftArray[2].getBounds().y  >= 480 && leftArray[2].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[2].setIcon(leftArray[2].cross);
+                    }
+                    }
+                    if(leftArray[3].getIcon() == left.red)
+                    {
+                    if(leftArray[3].getBounds().y  >= 480 && leftArray[3].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[3].setIcon(leftArray[3].cross);
+                    }
+                    }
+                    if(leftArray[4].getIcon() == left.red)
+                    {
+                    if(leftArray[4].getBounds().y  >= 480 && leftArray[4].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[4].setIcon(leftArray[4].cross);
+                    }
+                    }
+                    if(leftArray[5].getIcon() == left.red)
+                    {
+                    if(leftArray[5].getBounds().y  >= 480 && leftArray[5].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[5].setIcon(leftArray[5].cross);
+                    }
+                    }
+                    if(leftArray[6].getIcon() == left.red)
+                    {
+                    if(leftArray[6].getBounds().y  >= 480 && leftArray[6].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[6].setIcon(leftArray[6].cross);
+                    }
+                    }
+                    if(leftArray[7].getIcon() == left.red)
+                    {
+                    if(leftArray[7].getBounds().y  >= 480 && leftArray[7].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[7].setIcon(leftArray[7].cross);
+                    }
+                    }
+                    if(leftArray[8].getIcon() == left.red)
+                    {
+                    if(leftArray[8].getBounds().y  >= 480 && leftArray[8].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[8].setIcon(leftArray[8].cross);
+                    }
+                    }
+                    if(leftArray[9].getIcon() == left.red)
+                    {
+                    if(leftArray[9].getBounds().y  >= 480 && leftArray[9].getBounds().y  <= 570)
+                    {
+                        score++;
+                        leftArray[9].setIcon(leftArray[9].cross);
+                    }
                     }
                 }
         
@@ -747,6 +1045,86 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
                             right.setIcon(right.cross);
                         }
 
+                    }
+                    if(rightArray[0].getIcon() == right.yellow)
+                    {
+                    if(rightArray[0].getBounds().y  >= 480 && rightArray[0].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[0].setIcon(rightArray[0].cross);
+                    }
+                    }
+                    if(rightArray[1].getIcon() == right.yellow)
+                    {
+                    if(rightArray[1].getBounds().y  >= 480 && rightArray[1].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[1].setIcon(rightArray[1].cross);
+                    }
+                    }
+                    if(rightArray[2].getIcon() == right.yellow)
+                    {
+                    if(rightArray[2].getBounds().y  >= 480 && rightArray[2].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[2].setIcon(rightArray[2].cross);
+                    }
+                    }
+                    if(rightArray[3].getIcon() == right.yellow)
+                    {
+                    if(rightArray[3].getBounds().y  >= 480 && rightArray[3].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[3].setIcon(rightArray[3].cross);
+                    }
+                    }
+                    if(rightArray[4].getIcon() == right.yellow)
+                    {
+                    if(rightArray[4].getBounds().y  >= 480 && rightArray[4].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[4].setIcon(rightArray[4].cross);
+                    }
+                    }
+                    if(rightArray[5].getIcon() == right.yellow)
+                    {
+                    if(rightArray[5].getBounds().y  >= 480 && rightArray[5].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[5].setIcon(rightArray[5].cross);
+                    }
+                    }
+                    if(rightArray[6].getIcon() == right.yellow)
+                    {
+                    if(rightArray[6].getBounds().y  >= 480 && rightArray[6].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[6].setIcon(rightArray[6].cross);
+                    }
+                    }
+                    if(rightArray[7].getIcon() == right.yellow)
+                    {
+                    if(rightArray[7].getBounds().y  >= 480 && rightArray[7].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[7].setIcon(rightArray[7].cross);
+                    }
+                    }
+                    if(rightArray[8].getIcon() == right.yellow)
+                    {
+                    if(rightArray[8].getBounds().y  >= 480 && rightArray[8].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[8].setIcon(rightArray[8].cross);
+                    }
+                    }
+                    if(rightArray[9].getIcon() == right.yellow)
+                    {
+                    if(rightArray[9].getBounds().y  >= 480 && rightArray[9].getBounds().y  <= 570)
+                    {
+                        score++;
+                        rightArray[9].setIcon(rightArray[9].cross);
+                    }
                     }
                     
                 
