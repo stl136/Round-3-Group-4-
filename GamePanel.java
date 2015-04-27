@@ -14,12 +14,13 @@ import java.awt.image.ImageProducer;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
 public class GamePanel extends JPanel implements ActionListener, KeyListener
 {
-    private Timer t ;
+    public Timer t ;
     NoteBox n ;
     JLabel j = new JLabel("j");
     JButton start = new JButton("start");
@@ -40,7 +41,9 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
     JLabel line1, line2, line3, line4, scoreBox;
     public int score = 0;
     Font font = new Font("Comic Sans", Font.BOLD,28);
+    int delay = 50;
     
+    java.applet.AudioClip clip;
     
     NoteBox[] upArray = new NoteBox[10];
     NoteBox[] downArray = new NoteBox[10];
@@ -58,8 +61,20 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
         setSize(700,700);
         
 
-        t = new Timer(50,this);
+        t = new Timer(delay,this);
+        
+        
        
+        //sound
+        try
+		 	{
+		 		//create the clip that will played later
+				clip = java.applet.Applet.newAudioClip(new java.net.URL("file:sounds/boop.wav"));
+		 	}
+          catch(Exception xx) {xx.printStackTrace();}
+        
+        
+        
         
         up = new NoteBox();
         up.setIcon(up.blue);
@@ -233,7 +248,11 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
         if(o == start)
         {
             t.start();
-           
+           try
+		 	{
+		 		clip.play();//play
+		 	}
+          catch(Exception xx) {xx.printStackTrace();}	
             
 
         }
@@ -694,6 +713,13 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener
                  d9Y = d9Y +5;
              }
               scoreBox.setText("Score: " +score);
+              
+              
+              if(time == 850)
+              {
+                  JOptionPane.showMessageDialog(null, "Get a Life!", "Game Over", JOptionPane.OK_OPTION);
+                  clip.stop();
+              }
         }
 
     

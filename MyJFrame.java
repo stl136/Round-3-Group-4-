@@ -7,8 +7,7 @@ import javax.swing.JFrame;
 public class MyJFrame extends JFrame
 {
     MainMenu mjp;
-    GamePanel gp;
-
+    
     
     public MyJFrame()
     {
@@ -16,7 +15,7 @@ public class MyJFrame extends JFrame
         
         super("KeyBoard Hero!");
         mjp = new MainMenu(this);
-        gp = new GamePanel();
+        
         
         
 
